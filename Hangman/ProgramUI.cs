@@ -50,5 +50,75 @@ public class ProgramUI
         }
     }
 
-
+    private static void DrawHangman(int attemptsLeft)
+    {
+        switch (attemptsLeft)
+        {
+            case 0:
+                Console.WriteLine("     _____");
+                Console.WriteLine("    |     |");
+                Console.WriteLine("          |");
+                Console.WriteLine("          |");
+                Console.WriteLine("          |");
+                Console.WriteLine("          |");
+                Console.WriteLine("__________|");
+                break;
+            case 1:
+                Console.WriteLine("     _____");
+                Console.WriteLine("    |     |");
+                Console.WriteLine("    O     |");
+                Console.WriteLine("          |");
+                Console.WriteLine("          |");
+                Console.WriteLine("          |");
+                Console.WriteLine("__________|");
+                Console.WriteLine("\n\nHint: Type of Rain Forest animal...");
+                break;
+            case 2:
+                Console.WriteLine("     _____");
+                Console.WriteLine("    |     |");
+                Console.WriteLine("    O     |");
+                Console.WriteLine("    |     |");
+                Console.WriteLine("          |");
+                Console.WriteLine("          |");
+                Console.WriteLine("__________|");
+                break;
+            case 3:
+                Console.WriteLine("     _____");
+                Console.WriteLine("    |     |");
+                Console.WriteLine("    O     |");
+                Console.WriteLine("   /|     |");
+                Console.WriteLine("          |");
+                Console.WriteLine("          |");
+                Console.WriteLine("__________|");
+                break;
+            case 4:
+                Console.WriteLine("     _____");
+                Console.WriteLine("    |     |");
+                Console.WriteLine("    O     |");
+                Console.WriteLine("   /|\\    |");
+                Console.WriteLine("          |");
+                Console.WriteLine("          |");
+                Console.WriteLine("__________|");
+                Console.WriteLine("\n\nHint: ");
+                break;
+            case 5:
+                Console.WriteLine("     _____");
+                Console.WriteLine("    |     |");
+                Console.WriteLine("    O     |");
+                Console.WriteLine("   /|\\    |");
+                Console.WriteLine("   /      |");
+                Console.WriteLine("          |");
+                Console.WriteLine("__________|");
+                break;
+            case 6:
+                Console.WriteLine("     _____");
+                Console.WriteLine("    |     |");
+                Console.WriteLine("    O     |");
+                Console.WriteLine("   /|\\    |");
+                Console.WriteLine("   / \\    |");
+                Console.WriteLine("          |");
+                Console.WriteLine("__________|");
+                break;
+        }
+    }
 }

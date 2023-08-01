@@ -99,7 +99,7 @@ public class ProgramUI
                 Console.WriteLine("          |");
                 Console.WriteLine("          |");
                 Console.WriteLine("__________|");
-                Console.WriteLine("\n\nHint: ");
+                Console.WriteLine($"\n\n\Hint: {HangmanHints.GetHint(selectedWord)}");
                 break;
             case 5:
                 Console.WriteLine("     _____");

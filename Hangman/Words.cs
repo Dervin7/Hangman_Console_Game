@@ -48,6 +48,8 @@ public static class HangmanHints
             case HangmanWords.Ocelot:
                 return "A pet in minecraft...";
                 break;
+            default:
+                return "No hint available.";
         }
     }
 }

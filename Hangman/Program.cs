@@ -1,7 +1,13 @@
-﻿public class Program
+﻿using System;
+
+namespace Hangman
 {
-    static void Main(string[] args)
+    public class Program
     {
-        programUI.Run();
+        static void Main(string[] args)
+        {
+            ProgramUI programUI = new ProgramUI();
+            ProgramUI.Run();
+        }
     }
 }
